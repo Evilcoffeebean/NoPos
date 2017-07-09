@@ -1,0 +1,5 @@
+name: NoPos
+version: .1
+main: me.vengeancey.nopos.Main
+author: Vengeancey
+description: Disable coordinates showing to players with specific permissions.
