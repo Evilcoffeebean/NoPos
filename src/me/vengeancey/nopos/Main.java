@@ -34,7 +34,7 @@ public class Main extends JavaPlugin implements Listener
 	@EventHandler
 	public void onJoin(final PlayerJoinEvent event)
 	{
-		if (event.getPlayer().hasPermission("nopos.coord"))
+		if (!event.getPlayer().hasPermission("nopos.coord"))
 		{
 			PacketHandler.getInstance().getPacket().disableCoordinates(event.getPlayer());
 		}
